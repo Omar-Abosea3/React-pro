@@ -1,0 +1,42 @@
+#Home{
+    background-color: #1ABC9C;
+}
+.HomeIcon{
+    width: 16rem;
+}
+h1{
+    font-size: 4.5rem !important;
+    font-weight: bold !important;
+    color: white;
+}
+svg{
+    width: 30px;
+    color: white;
+   
+}
+.mySVG1{
+    position: relative;
+    color: white;
+}
+.mySVG1::before{
+    content: '';
+    position: absolute;
+    width: 120px;
+    height: 5px;
+    border-radius: 5px;
+    background-color: white;
+    right: 130%;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.mySVG1::after{
+    content: '';
+    position: absolute;
+    width: 120px;
+    height: 5px;
+    border-radius: 5px;
+    background-color: white;
+    left: 130%;
+    top: 50%;
+    transform: translateY(-50%);
+}

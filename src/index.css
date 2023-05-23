@@ -11,3 +11,16 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+:root{
+  scroll-behavior: unset !important;
+}
+
+@media screen and (max-width:991px) {
+  nav{
+    width: 100% !important;
+  }
+  nav .navbar-brand{
+    font-size: 1.3rem !important;
+  }
+}

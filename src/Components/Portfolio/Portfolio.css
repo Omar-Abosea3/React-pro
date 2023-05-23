@@ -1,0 +1,74 @@
+h2{
+    color: #2C3E50;
+    font-size: 4rem !important;
+}
+.mySVG{
+    position: relative;
+    color:#2C3E50;
+}
+.mySVG::before{
+    content: '';
+    position: absolute;
+    width: 120px;
+    height: 5px;
+    border-radius: 5px;
+    background-color:#2C3E50;
+    right: 130%;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.mySVG::after{
+    content: '';
+    position: absolute;
+    width: 120px;
+    height: 5px;
+    border-radius: 5px;
+    background-color: #2C3E50;
+    left: 130%;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.MyCaption{
+    background-color: #1abc9cb6;
+    opacity: 0;
+    cursor: pointer;
+    transition: all 0.3s ;
+}
+figure:hover .MyCaption{
+    opacity: 1;
+}
+#MyLayer{
+    z-index: 999999999999999999 !important;
+    top: 0%;
+    bottom:0%;
+    left:0%;
+    right:0%;
+    overflow: auto;
+}
+.MyLayer1{
+    background-color: white !important;
+    transition: all 0.5s;
+}
+#myImg{
+    width: 60%;
+}
+#MyLayer i{
+    color: #1ABC9C !important;
+    cursor: pointer !important;
+    z-index: 999999;
+}
+.MyLayer1 figcaption{
+    width: 60%;
+    margin: auto;
+}
+.MyLayer1 button{
+    background-color: #1ABC9C;
+    color: white !important;
+    transition: all 0.3s;
+}
+#MyLayer button i{
+    color: white !important;
+}
+.MyLayer1 button:hover{
+    background-color: #158972;
+}

@@ -1,0 +1,47 @@
+input::placeholder{
+    font-size: 2.5rem;
+    color: #6C757D;
+}
+input{
+    font-size: 1.5rem !important;
+    border: 0px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.415) !important ;
+}
+input:focus{
+    outline: 0px !important;
+}
+
+textarea::placeholder{
+    font-size: 2.5rem;
+    color: #6C757D;
+}
+textarea{
+    font-size: 1.5rem !important;
+    border: 0px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.419) !important ;
+}
+textarea:focus{
+    outline: 0px !important;
+}
+button{
+    background-color: #1ABC9C !important;
+    color: white !important;
+    transition: all 0.3s;
+}
+button:hover{
+    background-color: #178b74 !important;
+}
+.row .myForm{
+    width: 50%;
+}
+#EndMessage{
+    width: 100%;
+}
+#EndMessage i{
+    cursor: pointer;
+}
+@media screen and (max-width:900px) {
+    .row .myForm{
+        width: 100% !important;
+    }
+}

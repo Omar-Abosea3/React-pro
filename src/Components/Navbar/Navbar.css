@@ -1,0 +1,29 @@
+nav{
+    background-color: #2C3E50;
+    transition: all 0.3s;
+}
+nav a{
+    color: white !important;
+}
+.navbar-brand{
+    font-size: 2rem !important;
+    transition: all 0.3s;
+}
+.myLinks{
+    font-size: 1.4rem !important;
+    font-weight: bold !important;
+    padding: 8px !important;
+    transition: all 0.3s;
+}
+.myLinks:hover{
+    color: #1ABC9C !important;
+}
+
+.colorOnScr{
+    background-color: #1ABC9C !important;
+    transition: all 0.3s;
+}
+.colorOnScr:hover{
+    background-color: #1ABC9C !important;
+    color: white !important;
+}
