@@ -6,9 +6,9 @@ import About from './Components/About/About';
 import Contact from './Components/Contact/Contact';
 import { useEffect } from 'react';
 import $ from 'jquery';
-import { RouterProvider, createBrowserRouter } from 'react-router-dom';
+import { RouterProvider, createHashRouter } from 'react-router-dom';
 import Layout from './Components/Layout/Layout';
-const router = createBrowserRouter([
+const router = createHashRouter([
   {path:'',element:<Layout/>,children:[
     {path:'',element:<Home/>},
     {path:'home',element:<Home/>},
