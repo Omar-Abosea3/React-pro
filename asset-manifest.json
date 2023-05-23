@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/React-pro/static/css/main.b7a7c9ba.css",
-    "main.js": "/React-pro/static/js/main.ee86d8ad.js",
+    "main.js": "/React-pro/static/js/main.4a2b1103.js",
     "static/js/787.0b8078ef.chunk.js": "/React-pro/static/js/787.0b8078ef.chunk.js",
     "static/media/fa-solid-900.ttf": "/React-pro/static/media/fa-solid-900.2877d54f94f30c5d563c.ttf",
     "static/media/fa-brands-400.ttf": "/React-pro/static/media/fa-brands-400.13e40630e5866f777de8.ttf",
@@ -20,11 +20,11 @@
     "static/media/fa-v4compatibility.woff2": "/React-pro/static/media/fa-v4compatibility.497d535001197a9c5b38.woff2",
     "index.html": "/React-pro/index.html",
     "main.b7a7c9ba.css.map": "/React-pro/static/css/main.b7a7c9ba.css.map",
-    "main.ee86d8ad.js.map": "/React-pro/static/js/main.ee86d8ad.js.map",
+    "main.4a2b1103.js.map": "/React-pro/static/js/main.4a2b1103.js.map",
     "787.0b8078ef.chunk.js.map": "/React-pro/static/js/787.0b8078ef.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.b7a7c9ba.css",
-    "static/js/main.ee86d8ad.js"
+    "static/js/main.4a2b1103.js"
   ]
 }
